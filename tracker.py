@@ -29,7 +29,7 @@ if api_key:
                     print('Tracking complete')
                 else:
                     print('Tracking in progress...')
-                    time.sleep(N) # sleep for N sec
+                    time.sleep(10) # sleep for N sec
                     check_tracking_status()
             else:
                 print(response.text)
